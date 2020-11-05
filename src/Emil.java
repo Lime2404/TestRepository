@@ -8,5 +8,7 @@ public class Emil {
 
         boolean love = whatIsLove();
         System.out.println(love);
+        
+        //test comment
     }
 }
