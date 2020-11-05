@@ -1,5 +1,12 @@
 public class Emil {
+
+    public static boolean whatIsLove(){
+        return true;
+    }
+
     public static void main(String[] args){
-        System.out.println("Hi");
+
+        boolean love = whatIsLove();
+        System.out.println(love);
     }
 }
