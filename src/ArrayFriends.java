@@ -8,7 +8,6 @@ public class ArrayFriends {
         friends[2] = "Sergey3";
         friends[3] = "Sergey4";
         friends[19] = "Sergey5";
-        friends[19] = "Sergey6";
         int i = 0;
         int totalElements = friends.length;
         while (i < totalElements){
