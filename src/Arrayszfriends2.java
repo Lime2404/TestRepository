@@ -3,7 +3,7 @@ public class Arrayszfriends2 {
         String[] friends = new String[20];
         friends[0] = "Sergey1";
         friends[1] = "Sergey2";
-        friends[2] = "Sergey3";
+        friends[2] = "Nikita";
         friends[3] = "Sergey4";
         friends[19] = "Sergey5";
         int i;
