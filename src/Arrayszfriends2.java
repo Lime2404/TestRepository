@@ -10,8 +10,13 @@ public class Arrayszfriends2 {
         int totalElements = friends.length;
 
         for (i = 0; i < totalElements; i++){
-            if (friends[i] == "Sergey3")
+            if (friends[i] == "Nikita")
                 continue;
+            if (friends[i] ==null){
+                continue;
+            }
+
+//            break;
             System.out.println("I want to meet with " + friends[i]);
 //            i++;
         }
