@@ -2,23 +2,23 @@ public class Responsibilities {
 
     public static void main(String[] args) {
 
-//        Person list[] = new Person[4];
-//        list[0] = new Man("Данил");
-//        list[1] = new Women("Лиза");
-//        list[2] = new Man("папа");
-//        list[3] = new Women("мама");
+        Person list1[] = new Person[4];
+        list1[0] = new Man("Данил");
+        list1[1] = new Women("Лиза");
+        list1[2] = new Man("папа");
+        list1[3] = new Women("мама");
 
-//        for (Person p : list){
-//            p.work(9);
-//        }
+        for (Person p : list1){
+            p.work(9);
+        }
 
-        Gender list[] = new Gender[4];
-        list[0] = new Man("Данил");
-        list[1] = new Women("Лиза");
-        list[2] = new Man("папа");
-        list[3] = new Women("мама");
+        Gender list2[] = new Gender[4];
+        list2[0] = new Man("Данил");
+        list2[1] = new Women("Лиза");
+        list2[2] = new Man("папа");
+        list2[3] = new Women("мама");
 
-        for (Gender p : list){
+        for (Gender p : list2){
             p.excercise(8);
         }
 
