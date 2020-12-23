@@ -11,13 +11,14 @@ public class ArrayFriends {
         int i = 0;
         int totalElements = friends.length;
         while (i < totalElements){
-            if (friends[i] == null){
+            if (friends[i] == "Sergey4"){
                 i++;
-                continue;
+                break;
+
             }
     System.out.println("I want to meet with " + friends[i]);
              i++;
       }
-
+    System.out.println("И тут я встретил его");
     }
 }
