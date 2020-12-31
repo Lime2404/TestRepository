@@ -1,3 +1,4 @@
+/*
 import java.util.ArrayList;
 import java.util.Collections;
 
@@ -19,10 +20,11 @@ public static void main(String[] args){
         System.out.println(cars.get(1));
         cars.clear();
         System.out.println(cars);
-    } catch (Exception e){                          // Здесь мы вводим кусок кода, который запустится если ошибка всёё же возниктнет
+    } catch (Exception_test e){                          // Здесь мы вводим кусок кода, который запустится если ошибка всёё же возниктнет
         System.out.println("что-то пошло не так"); // сам код на случай ошибки
     } finally {
         System.out.println("здесь идет какой-то код");
     }
 }
 }
+*/
