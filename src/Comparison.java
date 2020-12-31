@@ -1,3 +1,5 @@
+/*
+
 public class Comparison {
     public static int min(int a, int b, int c, int d) {
         //напишите тут ваш код
@@ -24,7 +26,7 @@ public class Comparison {
 
     }
 
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) throws Exception_test {
         System.out.println(min(-20, -10));
         System.out.println(min(-40, -10, -30, 40));
         System.out.println(min(-20, -40, -30, 40));
@@ -32,4 +34,4 @@ public class Comparison {
         System.out.println(min(-20, -10, -30, -40));
     }
 }
-
+*/
