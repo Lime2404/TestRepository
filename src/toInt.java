@@ -6,7 +6,6 @@ public class toInt {
 
 //    public class Solution {
         public static void main(String[] args) throws Exception {
-
             BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
             String x  = reader.readLine();
 //        int foo = Integer.parseInt(x);
@@ -23,6 +22,7 @@ public class toInt {
 
 
             System.out.println("Прошло " + secondsAfter15 + " секунд");
+
         }
 }
 
