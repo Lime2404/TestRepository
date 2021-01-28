@@ -19,5 +19,6 @@ public class Input {
             System.out.println("подтверждаю " + userName);
         }
         System.out.println("вы первысили максимальное количество попыток ");
+        obj1.close();
     }
 }
