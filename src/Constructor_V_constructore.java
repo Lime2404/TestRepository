@@ -13,9 +13,10 @@ public class Constructor_V_constructore {
 
         public Constructor_V_constructore(double x, double y) {
             //напишите тут ваш код
-//        this(x, y);
-//        this.radius = null;
-            this(x, y, 10);
+//            this.x = x;
+//            this.y = y;
+//            this.radius = 10;
+            this(x, y, 10); // вызов первого конструктора
 
         }
 
