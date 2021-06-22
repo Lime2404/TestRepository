@@ -19,7 +19,7 @@ public class Calculator {
         double result =  a / b;
         return result;
     }
-
+//test
     public static double percent(double a, double b) {
         //напишите тут ваш код
         double result = a * b / 100;
