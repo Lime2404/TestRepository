@@ -14,6 +14,10 @@ public class ArrayInput {
             {
                 list[i] = reader.readLine();
             }
-            System.out.println(list[2]);
+//            System.out.println(list[2]);
+            for(String pointer:list){
+                System.out.println(pointer);
+            }
         }
+
 }
