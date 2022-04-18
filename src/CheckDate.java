@@ -9,5 +9,6 @@ public class CheckDate {
         System.out.print(hours + ":");
         System.out.print(minutes + ":");
         System.out.print(seconds + ":");
+//        System.out.println( current);
     }
 }
