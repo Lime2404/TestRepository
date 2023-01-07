@@ -1,0 +1,66 @@
+Index: src/Parameters.java
+===================================================================
+diff --git a/src/Parameters.java b/src/Parameters.java
+deleted file mode 100644
+--- a/src/Parameters.java	(revision bff5e668df148081f96469f4bf972f1473029df1)
++++ /dev/null	(revision bff5e668df148081f96469f4bf972f1473029df1)
+@@ -1,20 +0,0 @@
+-import com.sun.xml.internal.ws.api.message.ExceptionHasMessage;
+-
+-public class Parameters {
+-    public static void main(String[] args){
+-        print4("test");
+-        System.out.println("Hi");
+-        System.out.println("Hi");
+-        System.out.println("Hi");
+-        System.out.println("Hi");
+-        System.out.println("Hi");
+-
+-
+-    }
+-        public static void print4(String s){
+-            System.out.println(s);
+-            System.out.println(s);
+-            System.out.println(s);
+-        }
+-
+-}
+Index: .idea/compiler.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/compiler.xml b/.idea/compiler.xml
+new file mode 100644
+--- /dev/null	(date 1673102714947)
++++ b/.idea/compiler.xml	(date 1673102714947)
+@@ -0,0 +1,9 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="CompilerConfiguration">
++    <bytecodeTargetLevel>
++      <module name="Selenium.main" target="1.8" />
++      <module name="Selenium.test" target="1.8" />
++    </bytecodeTargetLevel>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_1_8\" default=\"true\" project-jdk-name=\"1.8\" project-jdk-type=\"JavaSDK\">\r\n    <output url=\"file://$PROJECT_DIR$/out\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	(revision bff5e668df148081f96469f4bf972f1473029df1)
++++ b/.idea/misc.xml	(date 1673102800050)
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+     <output url="file://$PROJECT_DIR$/out" />
+   </component>
+ </project>
+\ No newline at end of file
